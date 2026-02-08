@@ -1,5 +1,5 @@
 # from langchain_openai import ChatOpenAI #use open ai llm for agent
-from langchain_core.tools import tool #building tool calling agent
+from langchain.tools import tool #building tool calling agent
 from langgraph.prebuilt import create_react_agent #automatically be able to call tools
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv 
